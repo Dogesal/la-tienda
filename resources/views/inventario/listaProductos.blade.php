@@ -20,7 +20,7 @@
 <!-- seccion de contenido -->
 @section('contenido')
     <div class="container mx-auto px-4 py-8">
-        <table id="tablaProductos" style="background-color:#faedcd" class="w-full  shadow-md rounded-md overflow-hidden">
+        <table id="tablaProductos" class="w-full bg-orange-200  shadow-md rounded-md overflow-hidden">
             <thead style="background-color:#d4a373" >
                 <tr>
                     <th>N</th>

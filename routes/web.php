@@ -17,7 +17,7 @@ use App\Http\Controllers\usuarioController;
 */
 
 
-Route::get('/', homeController::class);
+Route::get('/', homeController::class)->name('INDEX');
 
 Route::controller( usuarioController::class)->group(function(){
 

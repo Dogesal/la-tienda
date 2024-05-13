@@ -5,6 +5,7 @@
 
 <!-- seccion de css -->
 @section('css')
+<link rel="stylesheet" href="../../resources/css/app.css">
 
 @endsection()
 <!-- fin css -->
@@ -22,7 +23,7 @@
     <div class="flex justify-center">
             <a href="{{route('productos.listar')}}" class="m-6 text-center">
                 <div class="relative flex flex-col mt-6 mx-12 text-gray-700 bg-orange-200 shadow-md bg-clip-border rounded-xl w-96 h-80">
-                <div
+                    <div
                         class="relative  mx-4 -mt-6 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40 h-48">
                         <img
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJkZW6bPnuKEiChzGc_JhLe_M67FlM2_rL8Wx8R0lHKw&s"
